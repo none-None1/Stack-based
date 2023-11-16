@@ -31,6 +31,8 @@ def stack_based(c,timeout=None):
         while '' in c:
             c.remove('')
         c='\n'.join(c)
+        if not c:
+            return # to accept empty programs
         cmds = [([j.lower() for j in i.split(' ')] if i.split()[0].lower() != 'p' else ['p', i.split('"')[1]]) for i in
                 c.split('\n')]
     except:
