@@ -1,0 +1,13 @@
+; Infinite Fibonacci sequence
+VAR x
+VAR y
+VAR z
+VAR i
+S x 0
+S y 1
+S i 1
+O x
+A x y z
+C y x
+C z y
+JB i 4
