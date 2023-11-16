@@ -1,0 +1,4 @@
+; XKCD Random Number
+VAR four
+S four 4
+O four

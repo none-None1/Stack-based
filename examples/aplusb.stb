@@ -1,0 +1,8 @@
+; A+B Problem
+VAR x
+I x
+VAR y
+I y
+VAR z
+A x y z
+O z

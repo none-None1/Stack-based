@@ -1,0 +1,13 @@
+; Reverse input
+VAR x
+IC x
+PUSH x
+JB x 2
+VAR y
+VAR z
+SZ y
+NOT y z
+JA z 3
+POP x
+OC x
+JB y 5

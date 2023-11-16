@@ -1,0 +1,5 @@
+; Truth Machine
+VAR x
+I x
+O x
+JB x 1

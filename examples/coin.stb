@@ -1,0 +1,7 @@
+; Coin ("Heads"/"Tails")
+VAR x
+RND x
+JA x 3
+P "Tails"
+HALT
+P "Heads"
